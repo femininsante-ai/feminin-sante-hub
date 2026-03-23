@@ -503,6 +503,51 @@ a {
     text-decoration: underline;
     text-underline-offset: 3px;
 }
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff5f8;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    text-align: center;
+    background: white;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    max-width: 400px;
+    width: 90%;
+}
+h1 { color: #d81b60; }
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 20px 0;
+}
+a {
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 10px;
+    transition: 0.3s;
+    font-weight: bold;
+}
+.main-link {
+    background-color: #d81b60;
+    color: white;
+}
+.main-link:hover { background-color: #ad1457; }
+.sub-link {
+    background-color: #fce4ec;
+    color: #d81b60;
+}
+.sub-link:hover { background-color: #f8bbd0; }
+
+
 
 /* Footer */
 .footer-fs {
