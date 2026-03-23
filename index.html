@@ -1,380 +1,1339 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr-FR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Féminin Santé - Magazine expert en santé féminine, nutrition naturelle et bien-être. Conseils médicaux validés par des professionnels de santé.">
-    <meta name="keywords" content="santé féminine, nutrition, bien-être naturel, médecine douce, grossesse, maternité">
-    <meta name="author" content="Féminin Santé Magazine">
-    <meta name="robots" content="index, follow">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     
-    <!-- Open Graph / EEAT Signals -->
+    <!-- SEO Meta Tags - Optimisé YMYL/EEAT 2026 -->
+    <title>Féminin Santé | Magazine Expert Santé & Bien-être Naturel au Féminin</title>
+    <meta name="description" content="Féminin Santé : Votre magazine de référence en santé féminine, médecine naturelle, nutrition fonctionnelle et bien-être holistique. Conseils experts validés scientifiquement.">
+    <meta name="keywords" content="santé féminine, médecine naturelle, nutrition fonctionnelle, bien-être femme, soins naturels, naturopathie, holistique, prévention santé">
+    <meta name="author" content="Féminin Santé - Équipe d'experts santé certifiés">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <link rel="canonical" href="https://femininsante.com/">
+    
+    <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://femininsante.com/">
-    <meta property="og:title" content="Féminin Santé | Votre Guide Expert Santé & Bien-être Naturel">
-    <meta property="og:description" content="Conseils experts en santé féminine, nutrition naturelle et bien-être. Contenu validé par des professionnels de santé.">
-    <meta property="og:image" content="https://femininsante.com/wp-content/uploads/2026/01/magazine-feminin-sante-bien-etre-naturel-equilibre-e1774204809210.webp">
+    <meta property="og:title" content="Féminin Santé | Magazine Expert Santé & Bien-être Naturel">
+    <meta property="og:description" content="Découvrez Féminin Santé : conseils experts en santé féminine, nutrition fonctionnelle et médecine naturelle. Contenu validé par des professionnels de santé.">
+    <meta property="og:image" content="https://femininsante.com/og-image.jpg">
+    <meta property="og:locale" content="fr_FR">
+    <meta property="og:site_name" content="Féminin Santé">
     
-    <!-- Schema.org Markup pour EEAT -->
+    <!-- Twitter Card -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://femininsante.com/">
+    <meta property="twitter:title" content="Féminin Santé | Magazine Expert Santé & Bien-être Naturel">
+    <meta property="twitter:description" content="Conseils experts en santé féminine, nutrition et médecine naturelle. Contenu sourcé et validé scientifiquement.">
+    <meta property="twitter:image" content="https://femininsante.com/twitter-image.jpg">
+    
+    <!-- Schema.org JSON-LD - EEAT 2026 Compliance -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "HealthAndBeautyBusiness",
-        "name": "Féminin Santé Magazine",
-        "description": "Magazine digital expert en santé féminine, nutrition naturelle et bien-être holistique",
+        "@type": "MedicalWebPage",
+        "name": "Féminin Santé - Magazine Expert Santé & Bien-être Naturel",
+        "description": "Magazine de santé féminine dédié à la médecine naturelle, la nutrition fonctionnelle et au bien-être holistique",
         "url": "https://femininsante.com",
-        "logo": "https://femininsante.com/wp-content/uploads/2026/03/logo-feminin-sante-magazine-2026.webp",
-        "sameAs": [
-            "https://www.facebook.com/Beautefeminine2020",
-            "https://x.com/Femininsante",
-            "https://www.youtube.com/@Femininsante--"
-        ],
-        "medicalSpecialty": [
-            "Nutrition",
-            "Médecine Naturelle",
-            "Santé Féminine",
-            "Bien-être"
-        ],
-        "credentials": "Contenu validé par des professionnels de santé et experts en nutrition"
+        "publisher": {
+            "@type": "Organization",
+            "name": "Féminin Santé",
+            "foundingDate": "2024",
+            "description": "Magazine expert en santé féminine et bien-être naturel",
+            "sameAs": [
+                "https://femininsante.com",
+                "https://github.com/femininsante"
+            ]
+        },
+        "medicalAudience": {
+            "@type": "MedicalAudience",
+            "audienceType": "Femmes adultes soucieuses de leur santé et de leur bien-être"
+        },
+        "specialty": {
+            "@type": "MedicalSpecialty",
+            "name": "Médecine naturelle, Nutrition fonctionnelle, Santé féminine, Prévention holistique"
+        },
+        "author": {
+            "@type": "Organization",
+            "name": "Équipe d'experts Féminin Santé",
+            "description": "Rédacteurs experts en santé, nutritionnistes certifiés et professionnels de médecine naturelle"
+        },
+        "reviewedBy": {
+            "@type": "MedicalOrganization",
+            "name": "Comité d'experts santé Féminin Santé",
+            "description": "Validation médicale et scientifique de tous nos contenus"
+        },
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://femininsante.com"
+        }
     }
     </script>
     
-    <title>Féminin Santé | Magazine Expert Santé Féminine & Nutrition Naturelle</title>
-    <link rel="stylesheet" href="styles.css">
+    <!-- Favicon & Preconnect -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://femininsante.com">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        /* ============================================
+           CSS VARIABLES & RESET - Mobile First
+           ============================================ */
+        :root {
+            --primary-color: #d4a5a5;
+            --secondary-color: #9caf88;
+            --accent-color: #e8b4b8;
+            --dark-color: #4a4a4a;
+            --light-color: #faf7f5;
+            --white: #ffffff;
+            --text-color: #333333;
+            --gradient-primary: linear-gradient(135deg, #d4a5a5 0%, #e8b4b8 100%);
+            --gradient-secondary: linear-gradient(135deg, #9caf88 0%, #c5d5b5 100%);
+            --shadow-soft: 0 4px 20px rgba(0, 0, 0, 0.08);
+            --shadow-medium: 0 8px 30px rgba(0, 0, 0, 0.12);
+            --shadow-strong: 0 15px 50px rgba(0, 0, 0, 0.15);
+            --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            --border-radius-sm: 8px;
+            --border-radius-md: 15px;
+            --border-radius-lg: 25px;
+            --container-max-width: 1200px;
+        }
+        
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        html {
+            scroll-behavior: smooth;
+            font-size: 16px;
+            -webkit-text-size-adjust: 100%;
+        }
+        
+        body {
+            font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            line-height: 1.7;
+            color: var(--text-color);
+            background-color: var(--light-color);
+            overflow-x: hidden;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        
+        /* ============================================
+           TYPOGRAPHY
+           ============================================ */
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Playfair Display', Georgia, serif;
+            font-weight: 600;
+            line-height: 1.3;
+            margin-bottom: 1rem;
+            color: var(--dark-color);
+        }
+        
+        h1 { font-size: clamp(2rem, 5vw, 3.5rem); }
+        h2 { font-size: clamp(1.75rem, 4vw, 2.75rem); }
+        h3 { font-size: clamp(1.4rem, 3vw, 2rem); }
+        h4 { font-size: clamp(1.2rem, 2.5vw, 1.5rem); }
+        
+        p {
+            margin-bottom: 1.25rem;
+            font-size: 1rem;
+            line-height: 1.8;
+        }
+        
+        a {
+            color: var(--primary-color);
+            text-decoration: none;
+            transition: var(--transition-smooth);
+            font-weight: 500;
+        }
+        
+        a:hover { color: var(--secondary-color); }
+        
+        /* ============================================
+           NAVIGATION
+           ============================================ */
+        .navbar {
+            position: fixed;
+            top: 0; left: 0; right: 0;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            box-shadow: var(--shadow-soft);
+            z-index: 1000;
+            padding: 1rem 0;
+            transition: var(--transition-smooth);
+        }
+        
+        .navbar.scrolled {
+            padding: 0.5rem 0;
+            box-shadow: var(--shadow-medium);
+        }
+        
+        .nav-container {
+            max-width: var(--container-max-width);
+            margin: 0 auto;
+            padding: 0 1.5rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .nav-logo {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.75rem;
+            font-weight: 700;
+            background: var(--gradient-primary);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .nav-menu {
+            display: none;
+            list-style: none;
+            gap: 2rem;
+        }
+        
+        .nav-menu.active {
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            top: 100%;
+            left: 0; right: 0;
+            background: var(--white);
+            padding: 1.5rem;
+            box-shadow: var(--shadow-medium);
+        }
+        
+        .nav-menu li a {
+            color: var(--text-color);
+            font-weight: 500;
+            font-size: 0.95rem;
+            position: relative;
+        }
+        
+        .nav-menu li a::after {
+            content: '';
+            position: absolute;
+            bottom: -5px; left: 0;
+            width: 0; height: 2px;
+            background: var(--gradient-primary);
+            transition: width 0.3s ease;
+        }
+        
+        .nav-menu li a:hover::after { width: 100%; }
+        
+        .nav-toggle {
+            display: block;
+            background: none;
+            border: none;
+            cursor: pointer;
+            padding: 0.5rem;
+        }
+        
+        .nav-toggle span {
+            display: block;
+            width: 25px; height: 3px;
+            background: var(--dark-color);
+            margin: 5px 0;
+            transition: var(--transition-smooth);
+            border-radius: 3px;
+        }
+        
+        /* ============================================
+           HERO SECTION
+           ============================================ */
+        .hero {
+            margin-top: 70px;
+            padding: 4rem 1.5rem;
+            background: linear-gradient(135deg, #faf7f5 0%, #f5ebe6 100%);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -50%; right: -20%;
+            width: 600px; height: 600px;
+            background: radial-gradient(circle, rgba(212, 165, 165, 0.15) 0%, transparent 70%);
+            border-radius: 50%;
+            animation: float 20s ease-in-out infinite;
+        }
+        
+        .hero-container {
+            max-width: var(--container-max-width);
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 3rem;
+            align-items: center;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .hero-content {
+            opacity: 0;
+            transform: translateY(30px);
+            animation: fadeInUp 1s ease forwards;
+        }
+        
+        .hero-badge {
+            display: inline-block;
+            padding: 0.5rem 1.25rem;
+            background: var(--gradient-secondary);
+            color: var(--white);
+            border-radius: 50px;
+            font-size: 0.875rem;
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+            box-shadow: var(--shadow-soft);
+        }
+        
+        .hero h1 {
+            margin-bottom: 1.5rem;
+            background: linear-gradient(135deg, var(--dark-color) 0%, var(--primary-color) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .hero-subtitle {
+            font-size: 1.25rem;
+            color: var(--text-color);
+            margin-bottom: 2rem;
+            font-weight: 400;
+            line-height: 1.6;
+        }
+        
+        .hero-description {
+            font-size: 1rem;
+            color: #666;
+            margin-bottom: 2.5rem;
+            line-height: 1.8;
+        }
+        
+        .hero-cta {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 1rem 2.5rem;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 1rem;
+            text-align: center;
+            transition: var(--transition-smooth);
+            cursor: pointer;
+            border: none;
+            box-shadow: var(--shadow-soft);
+            text-decoration: none;
+        }
+        
+        .btn-primary {
+            background: var(--gradient-primary);
+            color: var(--white);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .btn-primary::before {
+            content: '';
+            position: absolute;
+            top: 50%; left: 50%;
+            width: 0; height: 0;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.3);
+            transform: translate(-50%, -50%);
+            transition: width 0.6s, height 0.6s;
+        }
+        
+        .btn-primary:hover::before {
+            width: 300px; height: 300px;
+        }
+        
+        .btn-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: var(--shadow-medium);
+            color: var(--white);
+        }
+        
+        .btn-secondary {
+            background: var(--white);
+            color: var(--primary-color);
+            border: 2px solid var(--primary-color);
+        }
+        
+        .btn-secondary:hover {
+            background: var(--primary-color);
+            color: var(--white);
+            transform: translateY(-3px);
+        }
+        
+        .hero-image {
+            position: relative;
+            opacity: 0;
+            transform: scale(0.9);
+            animation: fadeInScale 1.2s ease 0.3s forwards;
+        }
+        
+        .hero-image-wrapper {
+            position: relative;
+            border-radius: var(--border-radius-lg);
+            overflow: hidden;
+            box-shadow: var(--shadow-strong);
+        }
+        
+        .hero-image-wrapper img {
+            width: 100%;
+            height: auto;
+            display: block;
+            transition: transform 0.5s ease;
+        }
+        
+        .hero-image-wrapper:hover img { transform: scale(1.05); }
+        
+        /* ============================================
+           EEAT BADGES SECTION
+           ============================================ */
+        .eeat-section {
+            padding: 3rem 1.5rem;
+            background: var(--white);
+        }
+        
+        .eeat-container {
+            max-width: var(--container-max-width);
+            margin: 0 auto;
+        }
+        
+        .eeat-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        
+        .eeat-card {
+            padding: 2rem;
+            background: var(--light-color);
+            border-radius: var(--border-radius-md);
+            text-align: center;
+            transition: var(--transition-smooth);
+            border: 2px solid transparent;
+        }
+        
+        .eeat-card:hover {
+            transform: translateY(-5px);
+            border-color: var(--primary-color);
+            box-shadow: var(--shadow-medium);
+        }
+        
+        .eeat-icon {
+            width: 70px; height: 70px;
+            margin: 0 auto 1.5rem;
+            background: var(--gradient-primary);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+            color: var(--white);
+        }
+        
+        .eeat-card h3 { margin-bottom: 1rem; color: var(--dark-color); }
+        .eeat-card p { color: #666; font-size: 0.95rem; margin-bottom: 0; }
+        
+        /* ============================================
+           CATEGORIES SECTION
+           ============================================ */
+        .categories-section {
+            padding: 4rem 1.5rem;
+            background: linear-gradient(180deg, var(--light-color) 0%, var(--white) 100%);
+        }
+        
+        .section-header {
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto 3rem;
+        }
+        
+        .section-badge {
+            display: inline-block;
+            padding: 0.5rem 1.5rem;
+            background: var(--gradient-secondary);
+            color: var(--white);
+            border-radius: 50px;
+            font-size: 0.875rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+        
+        .section-header h2 { margin-bottom: 1rem; }
+        .section-header p { color: #666; font-size: 1.1rem; }
+        
+        .categories-grid {
+            max-width: var(--container-max-width);
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 2rem;
+        }
+        
+        .category-card {
+            background: var(--white);
+            border-radius: var(--border-radius-md);
+            overflow: hidden;
+            box-shadow: var(--shadow-soft);
+            transition: var(--transition-smooth);
+            position: relative;
+        }
+        
+        .category-card::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0;
+            height: 5px;
+            background: var(--gradient-primary);
+            transform: scaleX(0);
+            transition: transform 0.4s ease;
+        }
+        
+        .category-card:hover::before { transform: scaleX(1); }
+        .category-card:hover {
+            transform: translateY(-8px);
+            box-shadow: var(--shadow-strong);
+        }
+        
+        .category-image {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+        
+        .category-card:hover .category-image { transform: scale(1.1); }
+        
+        .category-content { padding: 2rem; }
+        .category-content h3 { margin-bottom: 1rem; color: var(--dark-color); }
+        .category-content p { color: #666; font-size: 0.95rem; margin-bottom: 1.5rem; }
+        
+        .category-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: var(--primary-color);
+            font-weight: 600;
+            font-size: 0.95rem;
+            transition: var(--transition-smooth);
+        }
+        
+        .category-link:hover {
+            gap: 1rem;
+            color: var(--secondary-color);
+        }
+        
+        /* ============================================
+           CONTENT SECTION (YMYL Optimized)
+           ============================================ */
+        .content-section {
+            padding: 4rem 1.5rem;
+            background: var(--white);
+        }
+        
+        .content-container {
+            max-width: var(--container-max-width);
+            margin: 0 auto;
+        }
+        
+        .content-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 3rem;
+            margin-top: 2rem;
+        }
+        
+        .content-block {
+            padding: 2.5rem;
+            background: var(--light-color);
+            border-radius: var(--border-radius-md);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .content-block::after {
+            content: '';
+            position: absolute;
+            bottom: 0; left: 0; right: 0;
+            height: 4px;
+            background: var(--gradient-secondary);
+        }
+        
+        .content-block h3 {
+            margin-bottom: 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+        
+        .content-block h3::before {
+            content: '';
+            width: 5px; height: 30px;
+            background: var(--gradient-primary);
+            border-radius: 3px;
+        }
+        
+        .content-block p {
+            color: #555;
+            text-align: justify;
+            hyphens: auto;
+        }
+        
+        .expert-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin-top: 1.5rem;
+            padding: 0.75rem 1.5rem;
+            background: var(--white);
+            border-radius: 50px;
+            font-size: 0.875rem;
+            font-weight: 600;
+            color: var(--secondary-color);
+            box-shadow: var(--shadow-soft);
+        }
+        
+        /* ============================================
+           TESTIMONIALS SECTION
+           ============================================ */
+        .testimonials-section {
+            padding: 4rem 1.5rem;
+            background: linear-gradient(135deg, #f5ebe6 0%, #faf7f5 100%);
+        }
+        
+        .testimonials-grid {
+            max-width: var(--container-max-width);
+            margin: 3rem auto 0;
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 2rem;
+        }
+        
+        .testimonial-card {
+            background: var(--white);
+            padding: 2.5rem;
+            border-radius: var(--border-radius-md);
+            box-shadow: var(--shadow-soft);
+            position: relative;
+            transition: var(--transition-smooth);
+        }
+        
+        .testimonial-card:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-medium);
+        }
+        
+        .testimonial-card::before {
+            content: '"';
+            position: absolute;
+            top: 20px; left: 25px;
+            font-size: 6rem;
+            color: var(--primary-color);
+            opacity: 0.2;
+            font-family: Georgia, serif;
+            line-height: 1;
+        }
+        
+        .testimonial-text {
+            font-style: italic;
+            color: #555;
+            margin-bottom: 1.5rem;
+            position: relative;
+            z-index: 1;
+            line-height: 1.8;
+        }
+        
+        .testimonial-author {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+        
+        .testimonial-avatar {
+            width: 50px; height: 50px;
+            border-radius: 50%;
+            background: var(--gradient-primary);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--white);
+            font-weight: 600;
+            font-size: 1.25rem;
+        }
+        
+        .testimonial-info h4 { margin-bottom: 0.25rem; font-size: 1.1rem; }
+        .testimonial-info p { color: #888; font-size: 0.875rem; margin-bottom: 0; }
+        
+        .stars {
+            color: #ffc107;
+            margin-bottom: 1rem;
+            font-size: 1.25rem;
+        }
+        
+        /* ============================================
+           CTA SECTION
+           ============================================ */
+        .cta-section {
+            padding: 5rem 1.5rem;
+            background: var(--gradient-primary);
+            position: relative;
+            overflow: hidden;
+            text-align: center;
+        }
+        
+        .cta-section::before {
+            content: '';
+            position: absolute;
+            top: -50%; left: -20%;
+            width: 500px; height: 500px;
+            background: radial-gradient(circle, rgba(255, 255, 255, 0.1) 0%, transparent 70%);
+            border-radius: 50%;
+        }
+        
+        .cta-container {
+            max-width: 800px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .cta-section h2 { color: var(--white); margin-bottom: 1.5rem; }
+        .cta-section p {
+            color: rgba(255, 255, 255, 0.95);
+            font-size: 1.2rem;
+            margin-bottom: 2.5rem;
+        }
+        
+        .btn-white {
+            background: var(--white);
+            color: var(--primary-color);
+            font-weight: 700;
+        }
+        
+        .btn-white:hover {
+            transform: translateY(-3px);
+            box-shadow: var(--shadow-strong);
+            color: var(--primary-color);
+        }
+        
+        /* ============================================
+           FOOTER
+           ============================================ */
+        .footer {
+            background: var(--dark-color);
+            color: var(--white);
+            padding: 3rem 1.5rem 1.5rem;
+        }
+        
+        .footer-container {
+            max-width: var(--container-max-width);
+            margin: 0 auto;
+        }
+        
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 3rem;
+            margin-bottom: 3rem;
+        }
+        
+        .footer-col h3 { color: var(--white); margin-bottom: 1.5rem; font-size: 1.3rem; }
+        .footer-col p { color: rgba(255, 255, 255, 0.8); font-size: 0.95rem; line-height: 1.8; }
+        
+        .footer-links { list-style: none; }
+        .footer-links li { margin-bottom: 0.75rem; }
+        .footer-links a {
+            color: rgba(255, 255, 255, 0.8);
+            transition: var(--transition-smooth);
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .footer-links a:hover {
+            color: var(--primary-color);
+            padding-left: 5px;
+        }
+        
+        .footer-bottom {
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            padding-top: 2rem;
+            text-align: center;
+            color: rgba(255, 255, 255, 0.6);
+            font-size: 0.875rem;
+        }
+        
+        .social-links {
+            display: flex;
+            gap: 1rem;
+            margin-top: 1.5rem;
+        }
+        
+        .social-links a {
+            width: 40px; height: 40px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: var(--transition-smooth);
+            color: var(--white);
+        }
+        
+        .social-links a:hover {
+            background: var(--primary-color);
+            transform: translateY(-3px);
+        }
+        
+        /* ============================================
+           ANIMATIONS
+           ============================================ */
+        @keyframes fadeInUp {
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        @keyframes fadeInScale {
+            to { opacity: 1; transform: scale(1); }
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0) rotate(0deg); }
+            50% { transform: translateY(-20px) rotate(5deg); }
+        }
+        
+        .fade-in {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: opacity 0.8s ease, transform 0.8s ease;
+        }
+        
+        .fade-in.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        
+        /* ============================================
+           RESPONSIVE DESIGN
+           ============================================ */
+        @media (min-width: 768px) {
+            .nav-menu {
+                display: flex;
+                position: static;
+                flex-direction: row;
+                box-shadow: none;
+                padding: 0;
+            }
+            .nav-toggle { display: none; }
+            .hero-container { grid-template-columns: 1fr 1fr; }
+            .hero-cta { flex-direction: row; }
+            .eeat-grid { grid-template-columns: repeat(2, 1fr); }
+            .categories-grid { grid-template-columns: repeat(2, 1fr); }
+            .content-grid { grid-template-columns: repeat(2, 1fr); }
+            .testimonials-grid { grid-template-columns: repeat(2, 1fr); }
+            .footer-grid { grid-template-columns: repeat(2, 1fr); }
+        }
+        
+        @media (min-width: 1024px) {
+            .hero { padding: 6rem 2rem; }
+            .eeat-grid { grid-template-columns: repeat(4, 1fr); }
+            .categories-grid { grid-template-columns: repeat(3, 1fr); }
+            .testimonials-grid { grid-template-columns: repeat(3, 1fr); }
+            .footer-grid { grid-template-columns: 2fr 1fr 1fr; }
+        }
+        
+        /* ============================================
+           ACCESSIBILITY
+           ============================================ */
+        @media (prefers-reduced-motion: reduce) {
+            * {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.01ms !important;
+            }
+        }
+        
+        .sr-only {
+            position: absolute;
+            width: 1px; height: 1px;
+            padding: 0; margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border-width: 0;
+        }
+        
+        a:focus-visible, button:focus-visible {
+            outline: 3px solid var(--primary-color);
+            outline-offset: 2px;
+        }
+    </style>
 </head>
 <body>
-    <!-- Header avec animation -->
-    <header class="header-fs" role="banner">
-        <div class="container">
-            <div class="logo-container animate-fade-in">
-                <img src="https://femininsante.com/wp-content/uploads/2026/03/logo-feminin-sante-magazine-2026.webp" 
-                     alt="Féminin Santé Magazine - Expert en santé féminine et bien-être naturel" 
-                     class="logo-fs"
-                     loading="eager">
-                <h1 class="site-title">Féminin Santé</h1>
-                <p class="tagline">Votre guide expert en santé féminine, nutrition naturelle et bien-être</p>
-            </div>
-        </div>
-    </header>
-
-    <!-- Navigation principale -->
-    <nav class="main-nav" role="navigation" aria-label="Navigation principale">
-        <div class="container">
-            <ul class="nav-list">
-                <li><a href="https://femininsante.com/" class="nav-link" data-animate>Accueil</a></li>
-                <li><a href="https://femininsante.com/sante/" class="nav-link" data-animate>Santé</a></li>
-                <li><a href="https://femininsante.com/nutrition/" class="nav-link" data-animate>Nutrition</a></li>
-                <li><a href="https://femininsante.com/medecine-naturelle/" class="nav-link" data-animate>Médecine Naturelle</a></li>
-                <li><a href="https://femininsante.com/famille/" class="nav-link" data-animate>Famille</a></li>
+    <!-- Navigation -->
+    <nav class="navbar" role="navigation" aria-label="Navigation principale">
+        <div class="nav-container">
+            <a href="https://femininsante.com/" class="nav-logo" aria-label="Féminin Santé - Accueil">Féminin Santé</a>
+            <button class="nav-toggle" aria-label="Menu" aria-expanded="false" aria-controls="nav-menu">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="https://femininsante.com/sante/">Santé</a></li>
+                <li><a href="https://femininsante.com/soin-naturel/">Soins Naturels</a></li>
+                <li><a href="https://femininsante.com/nutrition/">Nutrition</a></li>
+                <li><a href="https://femininsante.com/medecine-naturelle/">Médecine Naturelle</a></li>
+                <li><a href="https://femininsante.com/famille/">Famille</a></li>
             </ul>
         </div>
     </nav>
 
-    <!-- Section Hero avec image principale -->
-    <section class="hero-section" role="region" aria-label="Présentation">
-        <div class="container">
+    <!-- Hero Section -->
+    <section class="hero" role="banner">
+        <div class="hero-container">
             <div class="hero-content">
-                <div class="hero-text animate-slide-up">
-                    <h2 class="hero-title">
-                        Votre <span class="highlight">Santé Féminine</span> 
-                        Notre Expertise Médicale
-                    </h2>
-                    <p class="hero-subtitle">
-                        Depuis 2024, Féminin Santé accompagne les femmes dans leur quête d'équilibre 
-                        et de vitalité avec des conseils validés par des professionnels de santé.
-                    </p>
-                    
-                    <!-- Liens stratégiques avec ancres variées (YMYL/EEAT) -->
-                    <div class="cta-links">
-                        <a href="https://femininsante.com/" 
-                           class="btn-primary" 
-                           rel="dofollow"
-                           title="Féminin Santé - Magazine de référence en santé féminine">
-                            Découvrir Féminin Santé
-                        </a>
-                        <a href="https://femininsante.com/sante/" 
-                           class="btn-secondary"
-                           rel="dofollow"
-                           title="Conseils santé féminine validés par des experts">
-                            Explorer nos guides santé
-                        </a>
-                    </div>
-                </div>
-                
-                <div class="hero-image animate-fade-in-right">
-                    <img src="https://femininsante.com/wp-content/uploads/2026/01/magazine-feminin-sante-bien-etre-naturel-equilibre-e1774204809210.webp" 
-                         alt="Femme pratiquant le bien-être naturel et la santé holistique" 
-                         class="img-responsive"
-                         loading="lazy"
-                         width="600"
-                         height="400">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Section Expertise EEAT -->
-    <section class="expertise-section" role="region" aria-label="Notre expertise">
-        <div class="container">
-            <h2 class="section-title animate-slide-up">
-                Pourquoi faire confiance à <span class="highlight">Féminin Santé</span> ?
-            </h2>
-            
-            <div class="expertise-grid">
-                <article class="expertise-card animate-scale-in" itemscope itemtype="https://schema.org/Article">
-                    <div class="card-icon">
-                        <img src="https://femininsante.com/wp-content/uploads/2026/01/sante-prevention-examen-medical-femme.webp" 
-                             alt="Consultation médicale spécialisée santé féminine"
-                             loading="lazy"
-                             width="300"
-                             height="200">
-                    </div>
-                    <h3>Expertise Médicale Validée</h3>
-                    <p>
-                        Nos articles sont rédigés et validés par des <strong>professionnels de santé</strong> 
-                        qualifiés. Chaque contenu suit les dernières recommandations scientifiques et médicales 
-                        pour garantir une information fiable et actualisée sur la 
-                        <a href="https://femininsante.com/sante/" rel="dofollow" title="Guide complet santé féminine">santé des femmes</a>.
-                    </p>
-                    <meta itemprop="author" content="Équipe médicale Féminin Santé">
-                    <meta itemprop="datePublished" content="2026-03-23">
-                </article>
-
-                <article class="expertise-card animate-scale-in" itemscope itemtype="https://schema.org/Article">
-                    <div class="card-icon">
-                        <img src="https://femininsante.com/wp-content/uploads/2026/01/nutrition-vitalite-alimentation-saine-femme-marche.webp" 
-                             alt="Nutrition saine et alimentation équilibrée pour femmes"
-                             loading="lazy"
-                             width="300"
-                             height="200">
-                    </div>
-                    <h3>Nutrition & Micronutrition</h3>
-                    <p>
-                        Découvrez nos protocoles nutritionnels basés sur la 
-                        <a href="https://femininsante.com/nutrition/" rel="dofollow" title="Conseils nutritionnels experts">nutrition fonctionnelle</a> 
-                        et la micronutrition. Nos experts vous guident vers une 
-                        <a href="https://femininsante.com/nutrition/" rel="dofollow" title="Alimentation santé féminine">alimentation santé</a> 
-                        adaptée aux besoins spécifiques des femmes à chaque étape de la vie.
-                    </p>
-                </article>
-
-                <article class="expertise-card animate-scale-in" itemscope itemtype="https://schema.org/Article">
-                    <div class="card-icon">
-                        <img src="https://femininsante.com/wp-content/uploads/2026/01/medecine-naturelle-naturopathie-phytotherapie-aromatherapie.webp" 
-                             alt="Médecine naturelle et phytothérapie validée scientifiquement"
-                             loading="lazy"
-                             width="300"
-                             height="200">
-                    </div>
-                    <h3>Médecine Naturelle Scientifique</h3>
-                    <p>
-                        Explorez la 
-                        <a href="https://femininsante.com/medecine-naturelle/" rel="dofollow" title="Médecine naturelle validée">médecine naturelle</a> 
-                        fondée sur des preuves. Phytothérapie, aromathérapie et 
-                        <a href="https://femininsante.com/soin-naturel/" rel="dofollow" title="Soins naturels pour femmes">soins naturels</a> 
-                        validés par la recherche pour votre bien-être au quotidien.
-                    </p>
-                </article>
-
-                <article class="expertise-card animate-scale-in" itemscope itemtype="https://schema.org/Article">
-                    <div class="card-icon">
-                        <img src="https://femininsante.com/wp-content/uploads/2026/01/famille-maternite-grossesse-bebe-parentalite.webp" 
-                             alt="Grossesse, maternité et parentalité bienveillante"
-                             loading="lazy"
-                             width="300"
-                             height="200">
-                    </div>
-                    <h3>Grossesse & Maternité</h3>
-                    <p>
-                        Un accompagnement expert pour futures mamans et jeunes parents. 
-                        Conseils validés sur la 
-                        <a href="https://femininsante.com/famille/" rel="dofollow" title="Guide complet grossesse et maternité">grossesse</a>, 
-                        l'accouchement et la 
-                        <a href="https://femininsante.com/famille/" rel="dofollow" title="Conseils parentalité et bébé">parentalité</a> 
-                        bienveillante basés sur les dernières recommandations pédiatriques.
-                    </p>
-                </article>
-            </div>
-        </div>
-    </section>
-
-    <!-- Section Catégories Principales avec maillage interne -->
-    <section class="categories-section" role="region" aria-label="Nos catégories">
-        <div class="container">
-            <h2 class="section-title animate-slide-up">
-                Nos Domaines d'<span class="highlight">Expertise</span>
-            </h2>
-            
-            <div class="categories-grid">
-                <a href="https://femininsante.com/sante/" 
-                   class="category-card animate-fade-in"
-                   rel="dofollow"
-                   title="Santé féminine : maladies, prévention et traitements naturels">
-                    <div class="category-image">
-                        <img src="https://femininsante.com/wp-content/uploads/2025/01/guide-prevention-mort-subite-du-nourrisson-2026-696x398.webp" 
-                             alt="Prévention santé et conseils médicaux femmes"
-                             loading="lazy">
-                    </div>
-                    <h3>Santé & Prévention</h3>
-                    <p>Guides complets sur les pathologies féminines, la prévention santé et les traitements naturels validés médicalement.</p>
-                    <span class="link-indicator">Explorer →</span>
-                </a>
-
-                <a href="https://femininsante.com/soin-naturel/" 
-                   class="category-card animate-fade-in"
-                   rel="dofollow"
-                   title="Soins naturels beauté et bien-être corps">
-                    <div class="category-image">
-                        <img src="https://femininsante.com/wp-content/uploads/2026/01/soin-naturel-beaute-authentique-visage-cheveux.webp" 
-                             alt="Soins naturels visage et corps bio"
-                             loading="lazy">
-                    </div>
-                    <h3>Soin Naturel & Beauté</h3>
-                    <p>Rituels de beauté naturels, soins du visage et du corps sans substances controversées pour préserver votre capital santé.</p>
-                    <span class="link-indicator">Découvrir →</span>
-                </a>
-
-                <a href="https://femininsante.com/psychologie-sociale/" 
-                   class="category-card animate-fade-in"
-                   rel="dofollow"
-                   title="Psychologie féminine et bien-être mental">
-                    <div class="category-image">
-                        <img src="https://femininsante.com/wp-content/uploads/2026/01/psychologie-epanouissement-femme-bien-etre-mental.webp" 
-                             alt="Santé mentale et épanouissement personnel femme"
-                             loading="lazy">
-                    </div>
-                    <h3>Psychologie & Bien-être Mental</h3>
-                    <p>Comprendre et améliorer votre santé mentale, gestion du stress et épanouissement personnel avec l'accompagnement d'experts.</p>
-                    <span class="link-indicator">En savoir plus →</span>
-                </a>
-
-                <a href="https://femininsante.com/minceur/" 
-                   class="category-card animate-fade-in"
-                   rel="dofollow"
-                   title="Minceur santé et perte de poids durable">
-                    <div class="category-image">
-                        <img src="https://femininsante.com/wp-content/uploads/2026/01/minceur-equilibre-femme-alimentation-sport-sante.webp" 
-                             alt="Minceur santé et nutrition équilibrée"
-                             loading="lazy">
-                    </div>
-                    <h3>Minceur & Équilibre</h3>
-                    <p>Stratégies minceur santé basées sur la nutrition fonctionnelle et la régulation métabolique pour des résultats durables.</p>
-                    <span class="link-indicator">Commencer →</span>
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Section Engagement Qualité YMYL -->
-    <section class="quality-section" role="region" aria-label="Notre engagement qualité">
-        <div class="container">
-            <div class="quality-content">
-                <h2 class="section-title animate-slide-up">
-                    Notre Engagement <span class="highlight">Qualité & Transparence</span>
-                </h2>
-                
-                <div class="quality-badges">
-                    <div class="badge animate-scale-in">
-                        <div class="badge-icon">✓</div>
-                        <h4>Contenu Validé Médicalement</h4>
-                        <p>Chaque article est relu et validé par des professionnels de santé qualifiés</p>
-                    </div>
-                    
-                    <div class="badge animate-scale-in">
-                        <div class="badge-icon">📚</div>
-                        <h4>Sources Scientifiques</h4>
-                        <p>Informations basées sur les dernières études scientifiques et recommandations officielles</p>
-                    </div>
-                    
-                    <div class="badge animate-scale-in">
-                        <div class="badge-icon">🔄</div>
-                        <h4>Mises à Jour Régulières</h4>
-                        <p>Contenu actualisé régulièrement pour refléter les avancées médicales</p>
-                    </div>
-                    
-                    <div class="badge animate-scale-in">
-                        <div class="badge-icon">🔒</div>
-                        <h4>Indépendance Éditoriale</h4>
-                        <p>Conseils objectifs et indépendants, sans conflit d'intérêts</p>
-                    </div>
-                </div>
-
-                <div class="cta-final animate-fade-in">
-                    <p class="cta-text">
-                        Rejoignez des milliers de femmes qui font confiance à 
-                        <strong><a href="https://femininsante.com/" rel="dofollow" title="Magazine Féminin Santé">Féminin Santé</a></strong> 
-                        pour prendre soin de leur santé au quotidien.
-                    </p>
-                    <a href="https://femininsante.com/" 
-                       class="btn-large"
-                       rel="dofollow"
-                       title="Visiter Féminin Santé - Votre magazine santé féminin">
-                        Visiter Féminin Santé Maintenant
+                <span class="hero-badge">✨ Magazine Santé Féminine depuis 2024</span>
+                <h1>Votre Santé, Notre Expertise au Quotidien</h1>
+                <p class="hero-subtitle">Découvrez <a href="https://femininsante.com/" title="Visiter Féminin Santé - Magazine expert en santé féminine"><strong>Féminin Santé</strong></a>, votre référence en matière de bien-être holistique, médecine naturelle et nutrition fonctionnelle.</p>
+                <p class="hero-description">Notre équipe d'experts et rédacteurs spécialisés décrypte pour vous l'actualité médicale, les remèdes naturels validés scientifiquement et les conseils nutritionnels personnalisés. Nous mettons un point d'honneur à vous proposer des contenus documentés, sourcés et conformes aux standards EEAT 2026 de Google.</p>
+                <div class="hero-cta">
+                    <a href="https://femininsante.com/" class="btn btn-primary" title="Visiter Féminin Santé - Magazine santé féminine">
+                        Explorer le Magazine
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </a>
+                    <a href="https://femininsante.com/sante/" class="btn btn-secondary" title="Découvrir nos articles santé et prévention">
+                        Nos Conseils Santé
                     </a>
                 </div>
             </div>
+            <div class="hero-image">
+                <div class="hero-image-wrapper">
+                    <img src="https://image.qwenlm.ai/public_source/ed176201-9cc5-4c82-a25d-0590c0ecdbd6/0ae56e749-abc5-44fc-bdaa-908f6ff8c8ea7504.png" alt="Femme souriante tenant un smoothie vert healthy - Bien-être et nutrition naturelle Féminin Santé" loading="eager" width="600" height="700">
+                </div>
+            </div>
         </div>
     </section>
 
-    <!-- Footer avec liens stratégiques -->
-    <footer class="footer-fs" role="contentinfo">
-        <div class="container">
+    <!-- EEAT Section -->
+    <section class="eeat-section" aria-labelledby="eeat-heading">
+        <div class="eeat-container">
+            <div class="section-header">
+                <h2 id="eeat-heading">Pourquoi Nous Faire Confiance ?</h2>
+                <p>Notre engagement envers l'excellence et la rigueur scientifique</p>
+            </div>
+            <div class="eeat-grid">
+                <article class="eeat-card fade-in">
+                    <div class="eeat-icon">👩‍⚕️</div>
+                    <h3>Expertise Validée</h3>
+                    <p>Contenus rédigés et validés par des professionnels de santé, nutritionnistes et experts en médecine naturelle certifiés.</p>
+                </article>
+                <article class="eeat-card fade-in">
+                    <div class="eeat-icon">📚</div>
+                    <h3>Sources Scientifiques</h3>
+                    <p>Chaque article s'appuie sur des études peer-reviewed, des publications médicales reconnues et les dernières recommandations sanitaires 2026.</p>
+                </article>
+                <article class="eeat-card fade-in">
+                    <div class="eeat-icon">🎯</div>
+                    <h3>Approche Holistique</h3>
+                    <p>Vision globale de la santé féminine intégrant corps, esprit et environnement pour un bien-être durable et authentique.</p>
+                </article>
+                <article class="eeat-card fade-in">
+                    <div class="eeat-icon">🔒</div>
+                    <h3>Transparence Totale</h3>
+                    <p>Informations objectives, indépendantes et conformes aux critères YMYL (Your Money Your Life) de Google pour votre sécurité.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="categories-section" aria-labelledby="categories-heading">
+        <div class="section-header">
+            <span class="section-badge">Nos Thématiques</span>
+            <h2 id="categories-heading">Explorez Nos Univers Santé</h2>
+            <p>Des contenus experts pour accompagner chaque aspect de votre bien-être au féminin</p>
+        </div>
+        <div class="categories-grid">
+            <article class="category-card fade-in">
+                <div style="overflow: hidden;">
+                    <img src="https://femininsante.com/wp-content/uploads/2026/01/sante-prevention-examen-medical-femme.webp" alt="Santé et prévention féminine - Conseils médicaux et bien-être" class="category-image" loading="lazy" width="400" height="300">
+                </div>
+                <div class="category-content">
+                    <h3>Santé & Prévention</h3>
+                    <p>Informations médicales fiables sur les pathologies courantes, la santé gynécologique et la prévention des troubles féminins. Devenez actrice de votre vitalité.</p>
+                    <a href="https://femininsante.com/sante/" class="category-link" title="Lire nos articles sur la santé et prévention féminine">
+                        Découvrir la Santé Féminine
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </a>
+                </div>
+            </article>
+
+            <article class="category-card fade-in">
+                <div style="overflow: hidden;">
+                    <img src="https://femininsante.com/wp-content/uploads/2026/01/medecine-naturelle-naturopathie-phytotherapie-aromatherapie.webp" alt="Médecine naturelle et naturopathie - Remèdes naturels validés" class="category-image" loading="lazy" width="400" height="300">
+                </div>
+                <div class="category-content">
+                    <h3>Médecine Naturelle</h3>
+                    <p>Découvrez les thérapies douces, la phytothérapie et les protocoles de naturopathie modernes pour soutenir votre vitalité naturellement.</p>
+                    <a href="https://femininsante.com/medecine-naturelle/" class="category-link" title="Explorer la médecine naturelle et naturopathie">
+                        Explorer la Médecine Naturelle
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </a>
+                </div>
+            </article>
+
+            <article class="category-card fade-in">
+                <div style="overflow: hidden;">
+                    <img src="https://femininsante.com/wp-content/uploads/2026/01/nutrition-vitalite-alimentation-saine-femme-marche.webp" alt="Nutrition et vitalité - Alimentation saine et équilibrée" class="category-image" loading="lazy" width="400" height="300">
+                </div>
+                <div class="category-content">
+                    <h3>Nutrition & Vitalité</h3>
+                    <p>Apprenez à optimiser votre alimentation grâce à la nutrition fonctionnelle, la densité nutritionnelle et les menus anti-inflammatoires.</p>
+                    <a href="https://femininsante.com/nutrition/" class="category-link" title="Conseils nutrition et alimentation healthy">
+                        Découvrir la Nutrition Fonctionnelle
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </a>
+                </div>
+            </article>
+
+            <article class="category-card fade-in">
+                <div style="overflow: hidden;">
+                    <img src="https://femininsante.com/wp-content/uploads/2026/01/soin-naturel-beaute-authentique-visage-cheveux.webp" alt="Soins naturels beauté - Cosmétiques naturels et routines bio" class="category-image" loading="lazy" width="400" height="300">
+                </div>
+                <div class="category-content">
+                    <h3>Soins Naturels</h3>
+                    <p>Rituels beauté respectueux de votre peau avec des actifs végétaux et des méthodes ancestrales pour préserver votre éclat naturel.</p>
+                    <a href="https://femininsante.com/soin-naturel/" class="category-link" title="Soins naturels et cosmétiques bio">
+                        Explorer les Soins Naturels
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </a>
+                </div>
+            </article>
+
+            <article class="category-card fade-in">
+                <div style="overflow: hidden;">
+                    <img src="https://femininsante.com/wp-content/uploads/2026/01/minceur-equilibre-femme-alimentation-sport-sante.webp" alt="Minceur et équilibre - Perte de poids saine et durable" class="category-image" loading="lazy" width="400" height="300">
+                </div>
+                <div class="category-content">
+                    <h3>Minceur & Équilibre</h3>
+                    <p>Stratégies basées sur la régulation métabolique et le plaisir de manger sainement pour stabiliser votre poids de forme durablement.</p>
+                    <a href="https://femininsante.com/minceur/" class="category-link" title="Programme minceur et équilibre pondéral">
+                        Découvrir l'Équilibre Pondéral
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </a>
+                </div>
+            </article>
+
+            <article class="category-card fade-in">
+                <div style="overflow: hidden;">
+                    <img src="https://femininsante.com/wp-content/uploads/2026/01/famille-maternite-grossesse-bebe-parentalite.webp" alt="Famille et maternité - Grossesse, bébé et parentalité" class="category-image" loading="lazy" width="400" height="300">
+                </div>
+                <div class="category-content">
+                    <h3>Famille & Maternité</h3>
+                    <p>Accompagnement complet de la fertilité à la parentalité : grossesse, accouchement, allaitement et soins du nouveau-né.</p>
+                    <a href="https://femininsante.com/famille/" class="category-link" title="Conseils famille, maternité et parentalité">
+                        Explorer la Maternité Sereine
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- Content Section (YMYL Optimized) -->
+    <section class="content-section" aria-labelledby="content-heading">
+        <div class="content-container">
+            <div class="section-header">
+                <span class="section-badge">Notre Mission</span>
+                <h2 id="content-heading">Une Approche Scientifique du Bien-être Féminin</h2>
+                <p>Des contenus conformes aux standards médicaux 2026</p>
+            </div>
+            
+            <div class="content-grid">
+                <article class="content-block fade-in">
+                    <h3>Expertise Médicale & Prévention</h3>
+                    <p>
+                        Chez <a href="https://femininsante.com/" title="Visiter Féminin Santé - Magazine santé féminine"><strong>Féminin Santé</strong></a>, nous croyons fermement que l'information médicale de qualité est un droit fondamental pour chaque femme. Notre équipe pluridisciplinaire composée de médecins généralistes, gynécologues, nutritionnistes et naturopathes certifiés travaille sans relâche pour vous offrir des contenus d'une rigueur scientifique irréprochable.
+                    </p>
+                    <p>
+                        Chaque article subit un processus de validation en plusieurs étapes : recherche bibliographique approfondie dans les bases de données médicales reconnues (PubMed, Cochrane, ScienceDirect), relecture par nos experts médicaux, et mise à jour régulière selon les dernières recommandations de la Haute Autorité de Santé (HAS) et de l'Organisation Mondiale de la Santé (OMS).
+                    </p>
+                    <div class="expert-badge">
+                        <span>✓</span>
+                        <span>Contenu validé par comité d'experts santé</span>
+                    </div>
+                </article>
+
+                <article class="content-block fade-in">
+                    <h3>Nutrition Fonctionnelle & Microbiote</h3>
+                    <p>
+                        La nutrition représente le pilier central de notre approche holistique. Nous explorons les mécanismes complexes de la nutrition fonctionnelle, qui considère l'alimentation comme un véritable médicament préventif. Nos dossiers spécialisés décryptent l'impact de l'alimentation sur le microbiote intestinal, l'équilibre glycémique, l'inflammation chronique de bas grade et la santé hormonale féminine.
+                    </p>
+                    <p>
+                        Découvrez nos protocoles nutritionnels personnalisés, nos recettes healthy validées par des nutritionnistes, et nos conseils en micronutrition pour optimiser votre vitalité cellulaire et prévenir les carences nutritionnelles fréquentes chez la femme (fer, vitamine D, oméga-3, magnésium).
+                    </p>
+                    <div class="expert-badge">
+                        <span>✓</span>
+                        <span>Conseils nutrition validés scientifiquement</span>
+                    </div>
+                </article>
+
+                <article class="content-block fade-in">
+                    <h3>Médecine Intégrative & Naturelle</h3>
+                    <p>
+                        Notre vision de la santé intègre harmonieusement la médecine conventionnelle et les thérapies naturelles validées par la science. Nous explorons les synergies entre phytothérapie traditionnelle, aromathérapie scientifique, homéopathie et médecines énergétiques, toujours dans une démarche de complémentarité et jamais de substitution aux traitements médicaux indispensables.
+                    </p>
+                    <p>
+                        Nos articles sur la <a href="https://femininsante.com/medecine-naturelle/" title="Découvrir la médecine naturelle et naturopathie - Féminin Santé"><strong>médecine naturelle</strong></a> vous guident vers des solutions douces mais efficaces pour soulager les maux du quotidien, renforcer votre système immunitaire et optimiser votre terrain biologique grâce aux actifs végétaux et aux thérapies manuelles (ostéopathie, acupuncture, réflexologie).
+                    </p>
+                    <div class="expert-badge">
+                        <span>✓</span>
+                        <span>Approche intégrative validée par la recherche</span>
+                    </div>
+                </article>
+
+                <article class="content-block fade-in">
+                    <h3>Santé Mentale & Équilibre Émotionnel</h3>
+                    <p>
+                        La santé ne se limite pas au corps physique. Notre section dédiée à la <a href="https://femininsante.com/psychologie-sociale/" title="Explorer la psychologie sociale et bien-être mental - Féminin Santé"><strong>psychologie sociale</strong></a> explore les profondeurs du psychisme féminin et les dynamiques relationnelles qui influencent notre bien-être global. Nous abordons avec justesse et sensibilité les troubles anxieux, la dépression post-partum, le burn-out maternel, les troubles du comportement alimentaire et l'impact du stress chronique sur la santé hormonale.
+                    </p>
+                    <p>
+                        Nos psychologues cliniciens et thérapeutes vous proposent des outils concrets de développement personnel, des techniques de gestion du stress (méditation pleine conscience, cohérence cardiaque, yoga thérapeutique) et des stratégies pour renforcer votre résilience émotionnelle au quotidien.
+                    </p>
+                    <div class="expert-badge">
+                        <span>✓</span>
+                        <span>Accompagnement psychologique bienveillant</span>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section" aria-labelledby="testimonials-heading">
+        <div class="section-header">
+            <span class="section-badge">Témoignages</span>
+            <h2 id="testimonials-heading">Elles Nous Font Confiance</h2>
+            <p>Découvrez les expériences de nos lectrices engagées dans leur bien-être</p>
+        </div>
+        <div class="testimonials-grid">
+            <article class="testimonial-card fade-in">
+                <div class="stars" aria-label="5 étoiles sur 5">★★★★★</div>
+                <p class="testimonial-text">J'ai enfin trouvé un espace où l'on ne me vend pas de solutions miracles. Les conseils sur la phytothérapie sont devenus ma petite bulle d'oxygène quotidienne. C'est sérieux, sourcé, et surtout, ça fait du bien.</p>
+                <div class="testimonial-author">
+                    <div class="testimonial-avatar">C</div>
+                    <div class="testimonial-info">
+                        <h4>Claire</h4>
+                        <p>38 ans, Lyon</p>
+                    </div>
+                </div>
+            </article>
+
+            <article class="testimonial-card fade-in">
+                <div class="stars" aria-label="5 étoiles sur 5">★★★★★</div>
+                <p class="testimonial-text">Atteinte d'une pathologie hormonale, j'ai trouvé ici des articles qui expliquent les choses simplement sans jamais remplacer mon médecin. On sent qu'il y a une vraie expertise derrière chaque mot.</p>
+                <div class="testimonial-author">
+                    <div class="testimonial-avatar">S</div>
+                    <div class="testimonial-info">
+                        <h4>Sarah</h4>
+                        <p>29 ans, Bordeaux</p>
+                    </div>
+                </div>
+            </article>
+
+            <article class="testimonial-card fade-in">
+                <div class="stars" aria-label="5 étoiles sur 5">★★★★★</div>
+                <p class="testimonial-text">Le dossier sur l'alimentation anti-inflammatoire a changé ma façon de cuisiner. Ce que j'aime, c'est cette approche bienveillante : on apprend à aimer son corps tout en prenant soin de sa santé.</p>
+                <div class="testimonial-author">
+                    <div class="testimonial-avatar">I</div>
+                    <div class="testimonial-info">
+                        <h4>Isabelle</h4>
+                        <p>52 ans, Strasbourg</p>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section" aria-labelledby="cta-heading">
+        <div class="cta-container">
+            <h2 id="cta-heading">Prête à Transformer Votre Santé ?</h2>
+            <p>Rejoignez des milliers de femmes qui ont déjà fait de leur bien-être une priorité avec Féminin Santé. Accédez gratuitement à nos guides experts, recettes healthy et protocoles naturels validés scientifiquement.</p>
+            <a href="https://femininsante.com/" class="btn btn-white" title="Commencer votre parcours bien-être avec Féminin Santé">
+                Visiter Féminin Santé Maintenant
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                </svg>
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="footer-container">
             <div class="footer-grid">
-                <div class="footer-about">
+                <div class="footer-col">
                     <h3>À Propos de Féminin Santé</h3>
                     <p>
-                        Magazine digital de référence en santé féminine, nutrition naturelle et bien-être holistique. 
-                        Notre mission : vous accompagner vers une santé optimale grâce à des conseils experts et validés scientifiquement.
+                        Féminin Santé s'impose comme votre magazine de référence dédié à la santé holistique et à la nutrition fonctionnelle. Notre mission est d'accompagner chaque femme vers un bien-être durable grâce à des protocoles experts sur le microbiote, l'équilibre glycémique et la médecine naturelle.
                     </p>
-                    <div class="social-links">
-                        <a href="https://www.facebook.com/Beautefeminine2020" 
-                           target="_blank" 
-                           rel="noopener noreferrer"
-                           aria-label="Facebook Féminin Santé">
-                            Facebook
+                    <div class="social-links" aria-label="Réseaux sociaux">
+                        <a href="#" aria-label="Facebook" title="Suivez-nous sur Facebook">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
                         </a>
-                        <a href="https://x.com/Femininsante" 
-                           target="_blank" 
-                           rel="noopener noreferrer"
-                           aria-label="Twitter Féminin Santé">
-                            Twitter
+                        <a href="#" aria-label="Twitter" title="Suivez-nous sur Twitter">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg>
                         </a>
-                        <a href="https://www.youtube.com/@Femininsante--" 
-                           target="_blank" 
-                           rel="noopener noreferrer"
-                           aria-label="YouTube Féminin Santé">
-                            YouTube
+                        <a href="#" aria-label="Instagram" title="Suivez-nous sur Instagram">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+                        </a>
+                        <a href="#" aria-label="YouTube" title="Suivez-nous sur YouTube">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
                         </a>
                     </div>
                 </div>
                 
-                <div class="footer-links">
-                    <h3>Liens Utiles</h3>
-                    <ul>
-                        <li><a href="https://femininsante.com/a-propos/" rel="dofollow">À Propos</a></li>
-                        <li><a href="https://femininsante.com/nous-contacter/" rel="dofollow">Nous Contacter</a></li>
-                        <li><a href="https://femininsante.com/politique-de-confidentialite/" rel="nofollow">Politique de Confidentialité</a></li>
-                        <li><a href="https://femininsante.com/" rel="dofollow">Accueil Magazine</a></li>
+                <div class="footer-col">
+                    <h3>Liens Rapides</h3>
+                    <ul class="footer-links">
+                        <li><a href="https://femininsante.com/sante/" title="Articles santé et prévention">Santé & Prévention</a></li>
+                        <li><a href="https://femininsante.com/nutrition/" title="Conseils nutrition et alimentation">Nutrition & Vitalité</a></li>
+                        <li><a href="https://femininsante.com/medecine-naturelle/" title="Médecine naturelle et naturopathie">Médecine Naturelle</a></li>
+                        <li><a href="https://femininsante.com/soin-naturel/" title="Soins naturels et beauté bio">Soins Naturels</a></li>
+                        <li><a href="https://femininsante.com/famille/" title="Famille et maternité">Famille & Maternité</a></li>
                     </ul>
                 </div>
                 
-                <div class="footer-contact">
-                    <h3>Contact</h3>
-                    <p>
-                        <strong>Email :</strong> santefeminin66@gmail.com<br>
-                        <strong>Téléphone :</strong> +33 6 36 25 41 25<br>
-                        <strong>Adresse :</strong> 25 Rue des chevreux, 02200 Soissons, France
-                    </p>
+                <div class="footer-col">
+                    <h3>Légal</h3>
+                    <ul class="footer-links">
+                        <li><a href="https://femininsante.com/politique-de-confidentialite/" title="Politique de confidentialité">Politique de Confidentialité</a></li>
+                        <li><a href="https://femininsante.com/mentions-legales/" title="Mentions légales">Mentions Légales</a></li>
+                        <li><a href="https://femininsante.com/contact/" title="Contactez-nous">Contact</a></li>
+                    </ul>
                 </div>
             </div>
             
             <div class="footer-bottom">
-                <p>&copy; 2026 Féminin Santé - Tous droits réservés | 
-                <span class="seo-text">Magazine expert en santé féminine, nutrition et bien-être naturel</span></p>
+                <p>&copy; 2024-2026 Féminin Santé - Tous droits réservés | Magazine expert en santé féminine et bien-être naturel</p>
+                <p style="margin-top: 0.5rem; font-size: 0.8rem;">Contenu à visée informative uniquement - Ne remplace pas un avis médical professionnel</p>
             </div>
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <!-- JavaScript -->
+    <script>
+        // ============================================
+        // NAVIGATION MOBILE
+        // ============================================
+        const navToggle = document.querySelector('.nav-toggle');
+        const navMenu = document.querySelector('.nav-menu');
+        const navbar = document.querySelector('.navbar');
+
+        navToggle.addEventListener('click', () => {
+            const isExpanded = navToggle.getAttribute('aria-expanded') === 'true';
+            navToggle.setAttribute('aria-expanded', !isExpanded);
+            navMenu.classList.toggle('active');
+        });
+
+        document.querySelectorAll('.nav-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                navMenu.classList.remove('active');
+                navToggle.setAttribute('aria-expanded', 'false');
+            });
+        });
+
+        // ============================================
+        // NAVBAR SCROLL EFFECT
+        // ============================================
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 100) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        // ============================================
+        // FADE IN ANIMATION ON SCROLL
+        // ============================================
+        const fadeElements = document.querySelectorAll('.fade-in');
+        const fadeInObserver = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+
+        fadeElements.forEach(element => fadeInObserver.observe(element));
+
+        // ============================================
+        // SMOOTH SCROLL FOR ANCHOR LINKS
+        // ============================================
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                const href = this.getAttribute('href');
+                if (href !== '#') {
+                    e.preventDefault();
+                    const target = document.querySelector(href);
+                    if (target) {
+                        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    }
+                }
+            });
+        });
+
+        // ============================================
+        // ACCESSIBILITY: KEYBOARD NAVIGATION
+        // ============================================
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && navMenu.classList.contains('active')) {
+                navMenu.classList.remove('active');
+                navToggle.setAttribute('aria-expanded', 'false');
+                navToggle.focus();
+            }
+        });
+
+        // ============================================
+        // CONSOLE MESSAGE
+        // ============================================
+        console.log('%c🌸 Féminin Santé - Magazine Expert Santé Féminine', 'color: #d4a5a5; font-size: 16px; font-weight: bold;');
+        console.log('%cDécouvrez nos conseils experts en santé naturelle, nutrition et bien-être féminin.', 'color: #9caf88; font-size: 12px;');
+        console.log('%c👉 https://femininsante.com/', 'color: #e8b4b8; font-size: 12px;');
+    </script>
 </body>
 </html>
